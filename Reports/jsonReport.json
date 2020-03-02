@@ -1,0 +1,1127 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 368981271,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "refresh the page",
+            "match": {
+              "location": "StepDefinition.refresh_the_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1183094,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.beforeMethod()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "User validate the login function using valid username and password",
+        "description": "",
+        "id": "login-functionality-in-adactin-application;user-validate-the-login-function-using-valid-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 23582677,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.afterMethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6695201677,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User lanuch the adactin application",
+            "match": {
+              "location": "StepDefinition.user_lanuch_the_adactin_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1016647030,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter the  \"spartanscoolsiva\" in username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "spartanscoolsiva",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefinition.user_enter_the_in_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 503024625,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enter the \"20102647\" in password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20102647",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinition.user_enter_the_in_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2909057296,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click on the login button",
+            "match": {
+              "location": "StepDefinition.user_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43910,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user validate the name of the in homepage",
+            "match": {
+              "location": "StepDefinition.user_validate_the_name_of_the_in_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1074392110,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "refresh the page",
+            "match": {
+              "location": "StepDefinition.refresh_the_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 115724,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.beforeMethod()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "User search the hotel",
+        "description": "",
+        "id": "login-functionality-in-adactin-application;user-search-the-hotel",
+        "after": [
+          {
+            "result": {
+              "duration": 37002977,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.afterMethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 596264985,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User select the hotel location",
+            "match": {
+              "location": "StepDefinition.user_select_the_hotel_location()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 370986745,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User select the hotel",
+            "match": {
+              "location": "StepDefinition.user_select_the_hotel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 314508064,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User select the room type for that particular hotel",
+            "match": {
+              "location": "StepDefinition.user_select_the_room_type_for_that_particular_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 320483038,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User select the number of rooms",
+            "match": {
+              "location": "StepDefinition.user_select_the_number_of_rooms()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 495718415,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enter the check in date",
+            "match": {
+              "location": "StepDefinition.user_enter_the_check_in_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 420448935,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enter the Check Out date",
+            "match": {
+              "location": "StepDefinition.user_enter_the_Check_Out_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 271539143,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User select the how many members per room for adults",
+            "match": {
+              "location": "StepDefinition.user_select_the_how_many_members_per_room_for_adults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 288097123,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User select then how many members stays per room for Chilren",
+            "match": {
+              "location": "StepDefinition.user_select_then_how_many_members_stays_per_room_for_Chilren()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2051889934,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User validate the hotel of the application",
+            "match": {
+              "location": "StepDefinition.user_validate_the_hotel_of_the_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 158559621,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User select the booking process if all are correct",
+            "match": {
+              "location": "StepDefinition.user_select_the_booking_process_if_all_are_correct()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1551534760,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User validate the continue button for next process",
+            "match": {
+              "location": "StepDefinition.user_validate_the_continue_button_for_next_process()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@searchHotel"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 874214503,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "refresh the page",
+            "match": {
+              "location": "StepDefinition.refresh_the_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 158813,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.beforeMethod()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "User book the Hotel",
+        "description": "",
+        "id": "login-functionality-in-adactin-application;user-book-the-hotel",
+        "after": [
+          {
+            "result": {
+              "duration": 17674185,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.afterMethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 950193921,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User enter the first name",
+            "match": {
+              "location": "StepDefinition.user_enter_the_first_name()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 358461871,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User enter the last name",
+            "match": {
+              "location": "StepDefinition.user_enter_the_last_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 319318820,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "USer enter the Address",
+            "match": {
+              "location": "StepDefinition.user_enter_the_Address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 452591912,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User enter the Credit card number",
+            "match": {
+              "location": "StepDefinition.user_enter_the_Credit_card_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 316488916,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User select the Credit card type",
+            "match": {
+              "location": "StepDefinition.user_select_the_Credit_card_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 372021695,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user select the credit card expiry month",
+            "match": {
+              "location": "StepDefinition.user_select_the_credit_card_expiry_month()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 285687846,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user select the credit card expiry year",
+            "match": {
+              "location": "StepDefinition.user_select_the_credit_card_expiry_year()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 264058526,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User enter the cvv no",
+            "match": {
+              "location": "StepDefinition.user_enter_the_cvv_no()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 311550945,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User validate the book now button for the next process",
+            "match": {
+              "location": "StepDefinition.user_validate_the_book_now_button_for_the_next_process()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 28,
+            "name": "@bookHotel"
+          }
+        ]
+      }
+    ],
+    "name": "login functionality in adactin application",
+    "description": "",
+    "id": "login-functionality-in-adactin-application",
+    "keyword": "Feature",
+    "uri": "Adactin.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1871683346,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "refresh the page",
+            "match": {
+              "location": "StepDefinition.refresh_the_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 94384,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.beforeMethod()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "User validate the login function using valid username and password",
+        "description": "",
+        "id": "login-functionality-in-adactin-application;user-validate-the-login-function-using-valid-username-and-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 13241378,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.afterMethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 731501693,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User lanuch the adactin application",
+            "match": {
+              "location": "StepDefinition.user_lanuch_the_adactin_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 446673569,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter the  \"spartanscoolsiva\" in username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "spartanscoolsiva",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefinition.user_enter_the_in_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 226016905,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enter the \"20102647\" in password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20102647",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinition.user_enter_the_in_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1438139945,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click on the login button",
+            "match": {
+              "location": "StepDefinition.user_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33650,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user validate the name of the in homepage",
+            "match": {
+              "location": "StepDefinition.user_validate_the_name_of_the_in_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 727297872,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "refresh the page",
+            "match": {
+              "location": "StepDefinition.refresh_the_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 112441,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.beforeMethod()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "User validate the login function using valid username and password",
+        "description": "",
+        "id": "login-functionality-in-adactin-application;user-validate-the-login-function-using-valid-username-and-password;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 26001803,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.afterMethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 729777731,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User lanuch the adactin application",
+            "match": {
+              "location": "StepDefinition.user_lanuch_the_adactin_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 243350483,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter the  \"sivabala\" in username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sivabala",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefinition.user_enter_the_in_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 186164325,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enter the \"123456\" in password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinition.user_enter_the_in_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 820705662,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click on the login button",
+            "match": {
+              "location": "StepDefinition.user_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34471,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user validate the name of the in homepage",
+            "match": {
+              "location": "StepDefinition.user_validate_the_name_of_the_in_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1061799937,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "refresh the page",
+            "match": {
+              "location": "StepDefinition.refresh_the_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 98898,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.beforeMethod()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "User search the hotel",
+        "description": "",
+        "id": "login-functionality-in-adactin-application;user-search-the-hotel",
+        "after": [
+          {
+            "result": {
+              "duration": 29851476,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.afterMethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 140422540,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//select[@id\u003d\u0027location\u0027]\"}\n  (Session info: chrome\u003d80.0.3987.122)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:48\u0027\nSystem info: host: \u0027DESKTOP-9ETCRNO\u0027, ip: \u0027192.168.43.188\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\\Users\\SIVABA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:55539}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 5c592788eb1572b9543d9f8ac215b338\n*** Element info: {Using\u003dxpath, value\u003d//select[@id\u003d\u0027location\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.getTagName(Unknown Source)\r\n\tat org.openqa.selenium.support.ui.Select.\u003cinit\u003e(Select.java:45)\r\n\tat com.adactin.baseclass.BaseClass.selectOptions(BaseClass.java:71)\r\n\tat com.adactin.stepdefinition.StepDefinition.user_select_the_hotel_location(StepDefinition.java:78)\r\n\tat ✽.Given User select the hotel location(AdactinMulti.feature:21)\r\n",
+              "status": "failed"
+            },
+            "line": 21,
+            "name": "User select the hotel location",
+            "match": {
+              "location": "StepDefinition.user_select_the_hotel_location()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "User select the hotel",
+            "match": {
+              "location": "StepDefinition.user_select_the_hotel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "User select the room type for that particular hotel",
+            "match": {
+              "location": "StepDefinition.user_select_the_room_type_for_that_particular_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "User select the number of rooms",
+            "match": {
+              "location": "StepDefinition.user_select_the_number_of_rooms()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "User enter the check in date",
+            "match": {
+              "location": "StepDefinition.user_enter_the_check_in_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "User enter the Check Out date",
+            "match": {
+              "location": "StepDefinition.user_enter_the_Check_Out_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "User select the how many members per room for adults",
+            "match": {
+              "location": "StepDefinition.user_select_the_how_many_members_per_room_for_adults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "User select then how many members stays per room for Chilren",
+            "match": {
+              "location": "StepDefinition.user_select_then_how_many_members_stays_per_room_for_Chilren()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "User validate the hotel of the application",
+            "match": {
+              "location": "StepDefinition.user_validate_the_hotel_of_the_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "User select the booking process if all are correct",
+            "match": {
+              "location": "StepDefinition.user_select_the_booking_process_if_all_are_correct()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "User validate the continue button for next process",
+            "match": {
+              "location": "StepDefinition.user_validate_the_continue_button_for_next_process()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@searchHotel"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 811548277,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "refresh the page",
+            "match": {
+              "location": "StepDefinition.refresh_the_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 189180,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.beforeMethod()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "User book the Hotel",
+        "description": "",
+        "id": "login-functionality-in-adactin-application;user-book-the-hotel",
+        "after": [
+          {
+            "result": {
+              "duration": 51450430,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.afterMethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 64028239,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#first_name\"}\n  (Session info: chrome\u003d80.0.3987.122)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:48\u0027\nSystem info: host: \u0027DESKTOP-9ETCRNO\u0027, ip: \u0027192.168.43.188\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\\Users\\SIVABA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:55539}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 5c592788eb1572b9543d9f8ac215b338\n*** Element info: {Using\u003did, value\u003dfirst_name}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.sendKeys(Unknown Source)\r\n\tat com.adactin.baseclass.BaseClass.inputValueElement(BaseClass.java:91)\r\n\tat com.adactin.stepdefinition.StepDefinition.user_enter_the_first_name(StepDefinition.java:142)\r\n\tat ✽.Given User enter the first name(AdactinMulti.feature:35)\r\n",
+              "status": "failed"
+            },
+            "line": 35,
+            "name": "User enter the first name",
+            "match": {
+              "location": "StepDefinition.user_enter_the_first_name()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "User enter the last name",
+            "match": {
+              "location": "StepDefinition.user_enter_the_last_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "USer enter the Address",
+            "match": {
+              "location": "StepDefinition.user_enter_the_Address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "User enter the Credit card number",
+            "match": {
+              "location": "StepDefinition.user_enter_the_Credit_card_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "User select the Credit card type",
+            "match": {
+              "location": "StepDefinition.user_select_the_Credit_card_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "user select the credit card expiry month",
+            "match": {
+              "location": "StepDefinition.user_select_the_credit_card_expiry_month()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "user select the credit card expiry year",
+            "match": {
+              "location": "StepDefinition.user_select_the_credit_card_expiry_year()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "User enter the cvv no",
+            "match": {
+              "location": "StepDefinition.user_enter_the_cvv_no()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "User validate the book now button for the next process",
+            "match": {
+              "location": "StepDefinition.user_validate_the_book_now_button_for_the_next_process()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 33,
+            "name": "@bookHotel"
+          }
+        ]
+      }
+    ],
+    "name": "login functionality in adactin application",
+    "description": "",
+    "id": "login-functionality-in-adactin-application",
+    "keyword": "Feature",
+    "uri": "AdactinMulti.feature"
+  }
+]
